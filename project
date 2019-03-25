@@ -1,0 +1,10 @@
+# checking the given no is positive or not 
+
+num = int(input("enter the num :"))
+
+if(num == 0):
+	print("the given num is zero")
+elif(num >= 1):
+	print("the given num is positive")
+else:
+	print("the give num is negative")
